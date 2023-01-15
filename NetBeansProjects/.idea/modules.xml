@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/CalculadoraIdade/CalculadoraIdade.iml" filepath="$PROJECT_DIR$/Java/CalculadoraIdade/CalculadoraIdade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EquacaoSegundoGrau/EquacaoSegundoGrau.iml" filepath="$PROJECT_DIR$/EquacaoSegundoGrau/EquacaoSegundoGrau.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FormarTriangulo/FormarTriangulo.iml" filepath="$PROJECT_DIR$/FormarTriangulo/FormarTriangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JogoAdivinho/JogoAdivinho.iml" filepath="$PROJECT_DIR$/JogoAdivinho/JogoAdivinho.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NetBeansProjects.iml" filepath="$PROJECT_DIR$/.idea/NetBeansProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperadorTernario/OperadorTernario.iml" filepath="$PROJECT_DIR$/OperadorTernario/OperadorTernario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramaMedia/ProgramaMedia.iml" filepath="$PROJECT_DIR$/ProgramaMedia/ProgramaMedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramaPernas/ProgramaPernas.iml" filepath="$PROJECT_DIR$/ProgramaPernas/ProgramaPernas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/SuperCalculadora/SuperCalculadora.iml" filepath="$PROJECT_DIR$/Java/SuperCalculadora/SuperCalculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VerificadoIdade/VerificadoIdade.iml" filepath="$PROJECT_DIR$/VerificadoIdade/VerificadoIdade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VotacaoSwing/VotacaoSwing.iml" filepath="$PROJECT_DIR$/VotacaoSwing/VotacaoSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste/teste.iml" filepath="$PROJECT_DIR$/teste/teste.iml" />
+    </modules>
+  </component>
+</project>
