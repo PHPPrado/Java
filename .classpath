@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CalcFatorial/src"/>
+	<classpathentry kind="src" path="EquacaoSegundoGrau/src"/>
+	<classpathentry kind="src" path="FormarTriangulo/src"/>
+	<classpathentry kind="src" path="Java/CalculadoraIdade/src"/>
+	<classpathentry kind="src" path="Java/SuperCalculadora/src"/>
+	<classpathentry kind="src" path="JogoAdivinho/src"/>
+	<classpathentry kind="src" path="OperadorTernario/src"/>
+	<classpathentry kind="src" path="ProgramaMedia/src"/>
+	<classpathentry kind="src" path="ProgramaPernas/src"/>
+	<classpathentry kind="src" path="teste/src"/>
+	<classpathentry kind="src" path="TesteFuncao01/src"/>
+	<classpathentry kind="src" path="TesteFuncao02/src"/>
+	<classpathentry kind="src" path="VerificadoIdade/src"/>
+	<classpathentry kind="src" path="Vetores/src"/>
+	<classpathentry kind="src" path="VotacaoSwing/src"/>
+	<classpathentry kind="output" path="CalcFatorial/build/classes"/>
+</classpath>
