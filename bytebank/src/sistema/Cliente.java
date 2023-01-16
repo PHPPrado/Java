@@ -1,4 +1,9 @@
+package sistema;
 public class Cliente {
+	String nome;
+	String cpf;
+	String profissao;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -17,7 +22,4 @@ public class Cliente {
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
 	}
-	String nome;
-	String cpf;
-	String profissao;
 }

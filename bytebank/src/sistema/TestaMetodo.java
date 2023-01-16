@@ -1,3 +1,4 @@
+package sistema;
 public class TestaMetodo {
 	public static void main(String[] args) {
 		Conta contaDoPedro = new Conta(2234, 9898);

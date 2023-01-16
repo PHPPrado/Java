@@ -1,3 +1,5 @@
+package sistema;
+
 public class Conta{
 	private double saldo;
 	private int agencia;
@@ -17,13 +19,16 @@ public class Conta{
 
 	void deposita(double valor) {
 		this.saldo += valor;
-	}
+		System.out.println("Valor de " + valor + " depositado com sucesso!");
+	} 
 	
 	public boolean saca(double valor) {
 		if(this.saldo >= valor) {
 			this.saldo -= valor;
+			System.out.println("Saque de " + valor + " reais, realizado com sucesso.");
 			return true;
 		} else {
+			System.out.println("Você não possui saldo suficiente.");
 			return false;
 		}
 	}
