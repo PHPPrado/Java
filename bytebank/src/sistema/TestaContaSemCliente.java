@@ -1,7 +1,7 @@
 package sistema;
 public class TestaContaSemCliente {
 	public static void main(String[] args) {
-		Conta contaDaMarcela = new Conta(1235, 7656);
+		Conta contaDaMarcela = new ContaPoupanca(1235, 7656);
 		System.out.println(contaDaMarcela.getSaldo());
 		
 		Cliente marcela = new Cliente();

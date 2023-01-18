@@ -1,14 +1,14 @@
 package sistema;
 public class CriaConta {
 	public static void main(String[] args) {
-		Conta primeiraConta = new Conta(1212, 5555);
+		Conta primeiraConta = new ContaCorrente(1212, 5555);
 		primeiraConta.deposita(200);
 		System.out.println(primeiraConta.getSaldo());
 		
 		primeiraConta.deposita(100);
 		System.out.println(primeiraConta.getSaldo());
 		
-		Conta segundaConta = new Conta(9993, 7655);
+		Conta segundaConta = new ContaCorrente(9993, 7655);
 		segundaConta.deposita(300);
 		
 		System.out.println("Na primeira conta tem: " + primeiraConta.getSaldo());

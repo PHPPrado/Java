@@ -22,7 +22,7 @@ public class SistemaPrincipal {
 		int numero = input.nextInt();
 		System.out.print("Agência: ");
 		int agencia = input.nextInt();
-		Conta conta1 = new Conta(numero, agencia);
+		Conta conta1 = new ContaCorrente(numero, agencia);
 		System.out.println("Insira um valor para deposito inicial: ");
 		double dado = input.nextDouble();
 		conta1.deposita(dado);
@@ -32,7 +32,7 @@ public class SistemaPrincipal {
 		conta1.saca(dado);
 		System.out.println("O saldo atual da sua conta é de " + conta1.getSaldo() + " reais.");
 		System.out.println("Agora vamos realizar um tranferência bancária, deposite um valor na conta de João que foi criada agora..");
-		Conta contaDoJoao = new Conta(8888, 7777);
+		Conta contaDoJoao = new ContaPoupanca(8888, 7777);
 		System.out.println("Digite o valor a ser transferido: ");
 		dado = input.nextDouble();
 		conta1.tranfere(dado, contaDoJoao);

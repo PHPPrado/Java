@@ -1,7 +1,7 @@
 package sistema;
 
-public class Conta{
-	private double saldo;
+public abstract class Conta{
+	protected double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular;
@@ -17,10 +17,10 @@ public class Conta{
 	
 	
 
-	void deposita(double valor) {
-		this.saldo += valor;
-		System.out.println("Valor de " + valor + " depositado com sucesso!");
-	} 
+	public abstract void deposita(double valor);
+//		{this.saldo += valor;
+//		System.out.println("Valor de " + valor + " depositado com sucesso!");
+//	} 
 	
 	public boolean saca(double valor) {
 		if(this.saldo >= valor) {
@@ -35,7 +35,7 @@ public class Conta{
 	
 	public boolean tranfere(double valor, Conta destino) {
 		if (this.saldo >= valor) {
-			this.saldo -= valor;
+			this.saca(valor);
 			destino.deposita(valor);
 			System.out.println("Sucesso na tranferência");
 			return true;
