@@ -1,17 +1,13 @@
 package bytebank2;
-// Gerente herda caracteristicas do funcionario
-public class Gerente extends Funcionario implements Autenticavel {
+
+public class Cliente implements Autenticavel {
 
 	private AutenticaConfig autenticador;
-
-	public Gerente() {
+	
+	public Cliente() {
 		this.autenticador = new AutenticaConfig();
 	}
 	
-	public double getBonificacao() {
-		return super.getSalario();
-	}
-
 	@Override
 	public void setSenha(int senha) {
 		this.autenticador.setSenha(senha);
@@ -21,5 +17,5 @@ public class Gerente extends Funcionario implements Autenticavel {
 	public boolean autentica(int senha) {
 		return this.autenticador.autentica(senha);
 	}
-	
 }
+

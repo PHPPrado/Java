@@ -12,6 +12,8 @@ public class TesteFuncionario {
 		System.out.println(pedro.getNome());
 		System.out.println(pedro.getBonificacao());
 
+		
+		
 	}
 
 }
