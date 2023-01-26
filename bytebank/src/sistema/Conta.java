@@ -18,9 +18,7 @@ public abstract class Conta{
 	
 
 	public abstract void deposita(double valor);
-//		{this.saldo += valor;
-//		System.out.println("Valor de " + valor + " depositado com sucesso!");
-//	} 
+
 	
 	public boolean saca(double valor) {
 		if(this.saldo >= valor) {
